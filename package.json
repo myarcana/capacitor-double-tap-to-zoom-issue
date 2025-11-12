@@ -1,0 +1,14 @@
+{
+  "name": "capacitor-app",
+  "type": "module",
+  "scripts": {
+    "start": "npx cap sync ios && npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "^7.4.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest"
+  }
+}
